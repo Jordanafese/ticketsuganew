@@ -129,6 +129,7 @@ div[for="cards"] {
 .General  {
     font-size: 18px;
     white-space: nowrap;
+    padding-left: 55px;
 }
 
 div[for="info"] {

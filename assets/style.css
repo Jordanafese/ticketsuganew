@@ -21,7 +21,7 @@ div[for="card"] {
 }
 
 div[for="pay"] {
-    padding: 30px 0 20px 0;
+    padding: 0px 0 20px 0;
 }
 
 div[for="cards"] {
@@ -125,6 +125,10 @@ div[for="cards"] {
 
 .modal-body {
     padding: 10px;
+}
+.General  {
+    font-size: 18px;
+    white-space: nowrap;
 }
 
 div[for="info"] {

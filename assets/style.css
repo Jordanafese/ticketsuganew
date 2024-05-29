@@ -131,6 +131,9 @@ div[for="cards"] {
     white-space: nowrap;
     padding-left: 55px;
 }
+.bundle {
+    padding-left: 5px;
+}
 
 div[for="info"] {
     padding: 12px;

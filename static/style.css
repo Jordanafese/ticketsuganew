@@ -71,7 +71,7 @@ div[for="top-bar"] svg {
 
 main {
     max-width: 300px;
-    margin: 2rem auto;
+    margin: 5px auto 2rem auto;
     margin-bottom: 0px;
 }
 
@@ -97,24 +97,31 @@ div[for="head"] {
 div[for="head_info"] {
     background-color: #026cdf;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 4px;
     padding: 15px 10px;
 }
 
 div[for="head_info"] > div {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     color: #fff;
 }
 
 div[for="head_info"] > div div:nth-child(1) {
     font-size: 14px;
+    /* text-align: left;
+    padding-left: 25px; */
 }
 
 div[for="head_info"] > div div:nth-child(2) {
     font-size: 17px;
     font-family: averta_semibold, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
+    /* text-align: left;
+    padding-left: 10px; */
 }
 
 div[for="content"] {
@@ -145,7 +152,7 @@ div[for="content"] > div div:nth-child(1) {
 }
 
 div[for="content"] > div div:nth-child(2) {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 div[for="timer"] {

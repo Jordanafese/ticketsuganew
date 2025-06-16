@@ -33,7 +33,10 @@ button {
     transition: color .3s ease-in-out,background .3s ease-in-out,border .3s ease-in-out;
     font-family: averta_regular, sans-serif;
 }
-
+#transfer {
+	background: #e7e5e5;
+	border: 1px solid #e7e5e5;
+}
 div[for="top-bar"] {
     background-color: #1f262d;
     height: 50px;
